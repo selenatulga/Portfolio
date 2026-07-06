@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        <h1>Selena Tulga</h1>
+        <p>Business Student</p>
+
+        <h3>Skills</h3>
+        <p>Golf, Gymnastics, Math, Soccer</p>
+
+        <button onclick="hello()">Click Me</button>
+        <p id="text"><</p>
+    </div>
+
+    <script>
+        function hello() {
+            document.getElementById("text").innerHTML = 
+                "Thanks for visiting!";
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #dceeff;
+            padding-top: 50px;
+        }
+
+        #box {
+            background: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px; 
+            border-radius: 10px; 
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            background: #4a6cf7;
+            color: white;
+        }
+    </style>
+
+</body>
+</html>
